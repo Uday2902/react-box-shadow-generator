@@ -1,14 +1,14 @@
-### Box Shadow Generator Project using React
+# Box Shadow Generator Project using React
 
 In this project i made simple Box Shadow Generator using React.
 
-### Installing React on Windows, macOS, and Linux
+# Installing React on Windows, macOS, and Linux
 This guide will walk you through the steps to install React on Windows, macOS, and Linux.
 
 ## Prerequisites
 Before you begin, make sure that you have the following installed:
 
-# Node.js
+## Node.js
 npm (Node.js package manager)
 You can download Node.js and npm from the official website: https://nodejs.org
 
