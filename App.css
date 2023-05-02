@@ -1,0 +1,28 @@
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.controls{
+  width: 40vw;
+  text-align: left;
+}
+
+.box{
+  width: 30vw;
+  height: 30vh;
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  padding: 20vh 0px;
+}
+
+input, label{
+  margin: 10px;
+}
