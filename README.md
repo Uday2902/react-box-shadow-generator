@@ -1,53 +1,27 @@
-# Box Shadow Generator Project using React
+# Chrome Extension: Price Tracker
 
-In this project i made simple Box Shadow Generator using React.
+This is a Chrome extension that tracks the price of products on various e-commerce websites. The extension is built using Python, Selenium, and Beautiful Soup for web scraping.
 
-# Installing React on Windows, macOS, and Linux
-This guide will walk you through the steps to install React on Windows, macOS, and Linux.
+## Features
 
-## Prerequisites
-Before you begin, make sure that you have the following installed:
+- The extension supports multiple e-commerce websites.
+- The user interface is simple and easy to use.
+- User can give desired price for any product and when actual price of product reaches to desired price then user will get informed via email
 
-## Node.js
-npm (Node.js package manager)
-You can download Node.js and npm from the official website: https://nodejs.org
+## Installation
 
-## Windows
-To install React on Windows, follow these steps:
+1. Clone the repository to your local machine.
+2. Install the required Python dependencies using `pip install -r requirements.txt`.
 
-Open the command prompt (cmd.exe) or Windows PowerShell as an administrator.
-Navigate to the directory where you want to create your React project.
-Run the following command to create a new React project:
+- Open Chrome and navigate to `chrome://extensions/`.
+- Enable developer mode by clicking the toggle button on the top right corner.
+- Click on "Load unpacked" and select the cloned repository.
+- The extension should now be installed and ready to use.
 
-```npx create-react-app my-app```
-
-This will create a new React project in a directory called my-app.
-
-Navigate to the my-app directory and start the development server by running the following command:
-
-```cd my-app```
-```npm start```
-
-This will start the development server and open your browser to http://localhost:3000, where you can view your React application.
-
-## macOS and Linux
-To install React on macOS or Linux, follow these steps:
-
-Open the Terminal app.
-Navigate to the directory where you want to create your React project.
-Run the following command to create a new React project:
-
-```npx create-react-app my-app```
-
-This will create a new React project in a directory called my-app.
-
-Navigate to the my-app directory and start the development server by running the following command:
-bash
-
-```cd my-app```
-```npm start```
-
-This will start the development server and open your browser to http://localhost:3000, where you can view your React application.
-
-Conclusion
-Congratulations! You have successfully installed React on your Windows, macOS, or Linux machine. You can now start building your React application.
+## Usage
+1. Run `app.py` file
+2. Open the e-commerce website of your choice.
+3. Navigate to the product page of the product you want to track.
+4. Click on the extension icon on the top right corner of your Chrome browser.
+5. Click on "Add to watchlist" to start tracking the price of the product.
+6. You will receive a notification when the price of the product changes.
